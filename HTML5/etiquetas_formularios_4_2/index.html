@@ -17,11 +17,12 @@
             <input id="nombre" name="nombre" type="text" required minlength="4" maxlength="8" size="100"
                 placeholder><br>
             <label for="sexo">Sexo: </label>
-            <select id="sexo">
+            <select id="sexo" required>
                 <!--Etiqueta option-->
-                <option value="value1">Hombre</option>
-                <option value="value2" selected>Mujer</option>
-                <option value="3">Otro</option>
+                <option disabled selected hidden value="">Selecciona una opcion</option>
+                <option value="H">Hombre</option>
+                <option value="M">Mujer</option>
+                <option value="O">Otro</option>
             </select><br><br>
             <label>Edad: </label>
             <input type="checkbox" value="20-39"> 20-39
@@ -47,11 +48,20 @@
             </fieldset>
 
 
-            <label for="start">Start date:</label>
-            <input type="date" id="start" name="Fecha de nacimiento" />
+            <label for="start">Fecha de nacimiento:</label>
+            <input type="date" id="start" name="calendario" /> <br>
 
             <label for="email">Email: </label>
-            <input id="email" type="email"><br><br>
+            <input id="email" type="email" name="email" required placeholder="correo@ejemplo.com"
+                pattern=".+@g\.educaand\.es" title="Introduce tu correo de @g.educaand.es"><br><br>
+
+            <label for="telefono">Telefono: </label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+34 123 456 789"
+                pattern="+[0-9]{2}\s\[0-9]{9}" required> <br> <br>
+
+            <label for="direccion"> Direccion:</label>
+            
+
             <label for="estudios">Estudios: </label>
             <select id="estudios">
                 <optgroup label="Estudios Universitarios">
