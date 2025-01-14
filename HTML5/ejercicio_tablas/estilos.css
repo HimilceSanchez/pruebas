@@ -4,13 +4,13 @@ html {
   
   table {
     border-collapse: collapse;
-    border: 2px solid rgb(131, 50, 104);
+    border: 2px solid rgb(10, 0, 7);
     letter-spacing: 1px;
     font-size: 0.8rem;
   }
   
   td, th {
-    border: 1px solid rgb(4, 63, 53);
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px 20px;
   }
   
