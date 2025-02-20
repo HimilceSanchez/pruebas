@@ -3,6 +3,7 @@ document.getElementById("miId1").innerHTML = "Nuevo contenido";
 //Cambiamos contenido de #miId2
 document.getElementById("miId2").textContent = "Nuevo texto";
 //Añadimos la clase rojo a #miId3
+
 document.getElementById("miId3").setAttribute("class", "miClase");
 //Ponemos de color azul #miId4
 document.getElementById("miId4").style.color = "blue";
@@ -23,7 +24,3 @@ document.getElementById("miId6").removeAttribute("class");
 
 //Eliminamos #miId7
 document.getElementById("miId7").remove();
-
-a = document.getElementById("miId3").getAttribute("class");
-a + " miClase2";
-document.getElementById("miId3").setAttribute("class", a);
