@@ -1,0 +1,95 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 275vh;
+}
+
+form {
+    background-color: #ffffff;
+    border: 2px solid rgb(131, 50, 104);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+fieldset {
+    border: 2px solid rgb(4, 63, 53);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+legend {
+    background-color: rgb(124, 114, 3);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(4, 63, 53);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: rgb(131, 50, 104);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(100, 40, 90);
+}
+
+tr:nth-child(even) input {
+    background-color: rgb(100, 205, 105);
+}
+
+tr:nth-child(odd) input {
+    background-color: rgb(227, 123, 207);
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+}
